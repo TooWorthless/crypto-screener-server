@@ -5,6 +5,7 @@ export interface User {
     password?: string;
     googleId?: string;
     isVerified: boolean;
+    authType: 'google' | 'credentials';
 }
 
 export interface Tokens {
